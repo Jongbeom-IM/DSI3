@@ -24,8 +24,8 @@ You can learn the concept of DSI3 and CRC algorithms through this page, and get 
 
 ## you can get more infomation through dsiconsortium.org or datasheet i have seen
 
-(www.dsiconsortium.org) : [DSI consortium] 
+[DSI consortium](www.dsiconsortium.org)
 
-[DSI3 Bus Standard Revision 1.00] (https://www.dsiconsortium.org/downloads/DSI3_%20Bus_Standard_r1.00.pdf)
+[DSI3 Bus Standard Revision 1.00](https://www.dsiconsortium.org/downloads/DSI3_%20Bus_Standard_r1.00.pdf)
 
-[NXP Dual DSI master transceiver] (https://www.nxp.com/docs/en/data-sheet/MC33SA0528.pdf)
+[NXP Dual DSI master transceiver](https://www.nxp.com/docs/en/data-sheet/MC33SA0528.pdf)
