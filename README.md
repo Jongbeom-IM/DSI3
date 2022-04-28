@@ -24,7 +24,7 @@ You can learn the concept of DSI3 and CRC algorithms through this page, and get 
 
 ## you can get more infomation through dsiconsortium.org or datasheet i have seen
 
-[DSI consortium] (www.dsiconsortium.org)
+(www.dsiconsortium.org) : [DSI consortium] 
 
 [DSI3 Bus Standard Revision 1.00] (https://www.dsiconsortium.org/downloads/DSI3_%20Bus_Standard_r1.00.pdf)
 
