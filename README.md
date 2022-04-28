@@ -41,7 +41,7 @@ you can get the code though _**CRC_DSI_with_table.c**_ and the CRC method is _**
 ### NXP Transceiver
 ![슬라이드10](https://user-images.githubusercontent.com/80473250/165660134-255e27f0-7e5c-4c24-8d25-303df811c2bf.JPG)
 
-### you can get more infomation through dsiconsortium.org or datasheet i have seen
+### you can get more infomation through dsiconsortium.org or datasheet i have refered
 
 [DSI consortium](https://www.dsiconsortium.org/)
 
