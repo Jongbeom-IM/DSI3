@@ -5,6 +5,18 @@ The **Distributed Systems Interface(DSI)** is a flexible and powereful bus proto
 You can learn the concept of DSI3 and CRC algorithms through this page, and get a DSI3 calculator that reflected DSI3's independent CRC algorithm and made it into a table sheet to speed up the processing.
 
 ***AND*** This is to inform you that I have referred to DSI consortium's specification and NXP trasceiver datasheet. I'll leave a link at the bottom of the page.
+
+## CRC calculator
+```c
+  CRC[7] = CRC_old[6];
+  CRC[6] = CRC_old[5];
+  CRC[5] = CRC_old[7] ^ CRC_old[4];
+  CRC[4] = CRC_old[3];
+  CRC[3] = CRC_old[7] ^ CRC_old[2];
+  CRC[2] = CRC_old[7] ^ CRC_old[1];
+  CRC[1] = CRC_old[7] ^ CRC_old[0];
+  CRC[0] = CRC_old[7] ^ input_command_bit;
+```
 ### Agenda
 ![슬라이드1](https://user-images.githubusercontent.com/80473250/165660072-d969ee62-b34b-453a-94bb-e562275d8597.JPG)
 ### DSI3 concept
