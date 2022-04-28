@@ -7,6 +7,9 @@ You can learn the concept of DSI3 and CRC algorithms through this page, and get 
 ***AND*** This is to inform you that I have referred to DSI consortium's specification and NXP trasceiver datasheet. I'll leave a link at the bottom of the page.
 
 ## CRC calculator
+DSI3 CRC do not use the same polynomials and algorithms as other CRC. In DSI3 Command and Response Mode, Make a 32-bit crc input by shifting valid 24-bit data 8 times.
+
+and from the MSB, put input_command_bit[] to the CRC method. The CRC method is described below in the C language.
 ```c
   CRC[7] = CRC_old[6];
   CRC[6] = CRC_old[5];
@@ -17,6 +20,10 @@ You can learn the concept of DSI3 and CRC algorithms through this page, and get 
   CRC[1] = CRC_old[7] ^ CRC_old[0];
   CRC[0] = CRC_old[7] ^ input_command_bit;
 ```
+And the calculator could be reprogrammed by making a table sheet containing 512 total cases of the above method.
+you can get the code though _**CRC_DSI_with_table.c**_ and the CRC method is _**CRC_table.c**_ 
+
+## CRC Seminar
 ### Agenda
 ![슬라이드1](https://user-images.githubusercontent.com/80473250/165660072-d969ee62-b34b-453a-94bb-e562275d8597.JPG)
 ### DSI3 concept
