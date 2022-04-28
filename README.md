@@ -3,7 +3,6 @@ The **Distributed Systems Interface(DSI)** is a flexible and powereful bus proto
 >*the principal target application for the network is automotive safety system, Airbag ECU*
 
 ***AND*** This is to inform you that I have referred to DSI consortium's specification and NXP trasceiver datasheet.
-
 ![슬라이드1](https://user-images.githubusercontent.com/80473250/165660072-d969ee62-b34b-453a-94bb-e562275d8597.JPG)
 ![슬라이드2](https://user-images.githubusercontent.com/80473250/165660097-b41d2ffd-0881-46aa-b6fa-feab585aa041.JPG)
 ![슬라이드3](https://user-images.githubusercontent.com/80473250/165660104-56b7434b-dc9b-4fcb-ad49-e909ec26b82e.JPG)
